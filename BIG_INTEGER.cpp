@@ -222,7 +222,7 @@ int main(){
     #ifndef ONLINE_JUDGE 
     freopen("test.txt","r",stdin);
     #endif
-
+    cout<<"fuck_you";
 
 
 
