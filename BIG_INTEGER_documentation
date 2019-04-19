@@ -1,0 +1,36 @@
+int main()
+{
+    BigInt B;  cin >> B;
+    BigInt A = Integer("123456789");
+    BigInt C = Integer(123456789ll);
+    int x; x = 123456789;
+
+    if (B <= A) cout << A - B;
+    else {
+        cout << "-";
+        cout << B - A;
+    }
+
+    cout << A + B; Print(A + x);
+    cout << A * B; Print(A * x);
+    cout << A / B; Print(A / x);
+    cout << A % B; printf("%d\n", A % x);
+
+    C = ++A; ++B; C += B + x;
+    Print(A); Print(B); Print(C);
+
+    cout << max(A,B);
+    cout << min(A,B);
+
+    cout << gcd(A,B);
+    cout << lcm(A,B);
+
+    cout << sqrt(A);
+    printf("%d %d %d\n", log(2,A), log(10,B), log(5,C));
+
+    A = Integer(16); x = 12;
+    cout << pow(A,B);
+    cout << pow(A,x);
+
+    return 0;
+}
