@@ -221,7 +221,6 @@ int main(){
     IOS
     #ifndef ONLINE_JUDGE 
     freopen("test.txt","r",stdin);
-    clock_t begin = clock();
     #endif
 
 
@@ -233,9 +232,5 @@ int main(){
 
 
 
-    #ifndef ONLINE_JUDGE 
-    clock_t end = clock();
-    cout<<endl<<double(end - begin) / CLOCKS_PER_SEC;
-    #endif 
     return 0;   
 }
